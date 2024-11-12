@@ -46,4 +46,9 @@ public class Person  {
         return Score;
     }
 
+    @Override
+    public String toString(){
+        // Given more time I would have written a better toString method. Currently just returning the first name so I can assert unit tests
+        return this.FirstName;
+    }
 }

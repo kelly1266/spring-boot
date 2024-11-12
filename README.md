@@ -8,16 +8,18 @@ This project contains my attempt to build a web application with Java for the in
 - There should be an appropriate level of unit test coverage
 
 # Getting Started
-This project structure was built using the [Spring Initializr](https://start.spring.io/)
+This project was developed with [JDK 23](https://www.oracle.com/java/technologies/downloads/) and built with [Apache Maven](https://maven.apache.org/download.cgi). The project structure was created using the [Spring Initializr](https://start.spring.io/).
 
 # Running locally
 The project can be run locally using the following command
+
 ```
 mvnw spring-boot:run
 ```
 
 # Tests
 Test cases can be run using the following command
+
 ```
 mvnw test
 ```
